@@ -1,10 +1,12 @@
 
 //dictionary
 const handOptions = {
-    "rock": '/images/rock.png',
-    "paper": '/images/paper.png',
-    "scissors": '/images/scissors.png'
-}
+  "rock": '/images/Rock.png',
+  "paper": '/images/Paper.png',
+  "scissors": '/images/Scissors.png'
+};
+
+
 
 let SCORE = 0;
 const pickUserHand = (hand) => {
